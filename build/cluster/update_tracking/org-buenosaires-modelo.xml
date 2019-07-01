@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.buenosaires.modelo">
+    <module_version install_time="1561945099751" last="true" origin="installer" specification_version="1.0">
+        <file crc="4214120743" name="config/Modules/org-buenosaires-modelo.xml"/>
+        <file crc="1676132453" name="modules/ext/BuenosAires.jar"/>
+        <file crc="4122410896" name="modules/org-buenosaires-modelo.jar"/>
+    </module_version>
+</module>

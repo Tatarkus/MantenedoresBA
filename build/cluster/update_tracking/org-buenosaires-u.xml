@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.buenosaires.u">
+    <module_version install_time="1561950016909" last="true" origin="installer" specification_version="1.0">
+        <file crc="334360105" name="config/Modules/org-buenosaires-u.xml"/>
+        <file crc="128412176" name="modules/org-buenosaires-u.jar"/>
+    </module_version>
+</module>

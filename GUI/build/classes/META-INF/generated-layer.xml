@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_buenosaries_vistas">
+                <file name="Mantenedores" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.buenosaries.vistas.MantenedoresTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.buenosaries.vistas//Mantenedores//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="buenosaries">
+                    <folder name="vistas">
+                        <file name="MantenedoresTopComponent">
+                            <!--org.buenosaries.vistas.MantenedoresTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_buenosaries_vistas/Mantenedores.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_buenosaries_vistas">
+                <file name="Mantenedores.instance">
+                    <!--org.buenosaries.vistas.MantenedoresTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.buenosaries.vistas.MantenedoresTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.buenosaries.vistas.MantenedoresTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="User">
+            <file name="org-buenosaires-vistas-UserRootRefreshActionListener.instance">
+                <!--org.buenosaries.vistas.UserRootRefreshActionListener-->
+                <attr
+                    bundlevalue="org.buenosaries.vistas.Bundle#CTL_UserRootRefreshActionListener" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.buenosaries.vistas.UserRootRefreshActionListener"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-buenosaries-vistas-MantenedoresTopComponent.instance">
+                <!--org.buenosaries.vistas.MantenedoresTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.buenosaries.vistas.MantenedoresTopComponent"/>
+                <attr name="preferredID" stringvalue="MantenedoresTopComponent"/>
+                <attr
+                    bundlevalue="org.buenosaries.vistas.Bundle#CTL_MantenedoresAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-buenosaries-vistas-MantenedoresTopComponent.shadow">
+                <!--org.buenosaries.vistas.MantenedoresTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-buenosaries-vistas-MantenedoresTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="MantenedoresTopComponent.settings">
+                <!--org.buenosaries.vistas.MantenedoresTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.buenosaries.vistas.MantenedoresTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="MantenedoresTopComponent.wstcref">
+                    <!--org.buenosaries.vistas.MantenedoresTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="MantenedoresTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

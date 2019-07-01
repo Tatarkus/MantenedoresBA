@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="jdbc.sqlite">
+    <module_version install_time="1561945099498" last="true" origin="installer" specification_version="1.0">
+        <file crc="1507476451" name="config/Modules/jdbc-sqlite.xml"/>
+        <file crc="3242220689" name="modules/ext/sqlite-jdbc-3.27.2.1.jar"/>
+        <file crc="1477876083" name="modules/jdbc-sqlite.jar"/>
+    </module_version>
+</module>

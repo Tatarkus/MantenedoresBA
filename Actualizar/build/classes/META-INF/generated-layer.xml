@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_buenosaires_u">
+                <file name="EditorUser" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.buenosaires.u.EditorUserTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.buenosaires.u//EditorUser//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="buenosaires">
+                    <folder name="u">
+                        <file name="EditorUserTopComponent">
+                            <!--org.buenosaires.u.EditorUserTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_buenosaires_u/EditorUser.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_buenosaires_u">
+                <file name="EditorUser.instance">
+                    <!--org.buenosaires.u.EditorUserTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.buenosaires.u.EditorUserTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.buenosaires.u.EditorUserTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-buenosaires-u-EditorUserTopComponent.shadow">
+                <!--org.buenosaires.u.EditorUserTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-buenosaires-u-EditorUserTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="File">
+            <file name="org-shop-editor-UserNewActionListener.shadow">
+                <!--org.buenosaires.u.UserNewActionListener-->
+                <attr name="originalFile" stringvalue="Actions/File/org-shop-editor-UserNewActionListener.instance"/>
+                <attr intvalue="10" name="position"/>
+            </file>
+            <file name="org-buenosaires-u-UserNewActionListener.shadow">
+                <!--org.buenosaires.u.UserNewActionListener-->
+                <attr name="originalFile" stringvalue="Actions/File/org-buenosaires-u-UserNewActionListener.instance"/>
+                <attr intvalue="10" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="EditorUserTopComponent.settings">
+                <!--org.buenosaires.u.EditorUserTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.buenosaires.u.EditorUserTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="EditorUserTopComponent.wstcref">
+                    <!--org.buenosaires.u.EditorUserTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="EditorUserTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-buenosaires-u-EditorUserTopComponent.instance">
+                <!--org.buenosaires.u.EditorUserTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.buenosaires.u.EditorUserTopComponent"/>
+                <attr name="preferredID" stringvalue="EditorUserTopComponent"/>
+                <attr
+                    bundlevalue="org.buenosaires.u.Bundle#CTL_EditorUserAction" name="displayName"/>
+            </file>
+        </folder>
+        <folder name="File">
+            <file name="org-shop-editor-UserNewActionListener.instance">
+                <!--org.buenosaires.u.UserNewActionListener-->
+                <attr
+                    bundlevalue="org.buenosaires.u.Bundle#CTL_UserNewActionListener" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.buenosaires.u.UserNewActionListener"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-buenosaires-u-UserNewActionListener.instance">
+                <!--org.buenosaires.u.UserNewActionListener-->
+                <attr
+                    bundlevalue="org.buenosaires.u.Bundle#CTL_UserNewActionListener" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.buenosaires.u.UserNewActionListener"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
